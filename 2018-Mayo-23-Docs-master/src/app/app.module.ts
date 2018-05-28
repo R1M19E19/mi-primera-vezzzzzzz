@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { UnTextitoComponent } from './un-textito/un-textito.component';
 import { AboutComponent } from './about/about.component';
 import { LizComponent } from './liz/liz.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { LizComponent } from './liz/liz.component';
     HomeComponent,
     UnTextitoComponent,
     AboutComponent,
-    LizComponent
+    LizComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

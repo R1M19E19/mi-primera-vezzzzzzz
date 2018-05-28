@@ -23,4 +23,7 @@ export class HomeComponent implements OnInit {
     this.goalText = '';
     this.itemCount = this.goals.length;
   }
+  removeItem(i) {
+    this.goals.splice(i, 1);
+  }
 }
